@@ -1,0 +1,42 @@
+.available-packages {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.available-packages article {
+    border: 1px solid rgb(230, 230, 230);
+    text-align: center;
+    padding: 15px;
+    border-radius: 7px;
+}
+
+.packages-body h4 {
+    color: rgb(133, 185, 125);
+    font-size: 18px;
+    border-bottom: 2px dashed rgb(228, 238, 229);
+    padding-bottom: 10px;
+}
+
+.packages-body ul {
+    font-size: 15px;
+    list-style-position: outside;
+    color: rgb(51, 52, 53);
+    list-style-image: url("./../../../public/check-1.png");
+}
+
+.available-packages article.packages-container img {
+    width: 100px;
+}
+
+@media (max-width: 1199px) {
+    .available-packages {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 580px) {
+    .available-packages {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}

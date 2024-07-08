@@ -1,0 +1,86 @@
+.filter-label {
+	color: var(--primary-color);
+}
+
+.hero-title {
+	font-family: "Plus Jakarta Sans";
+	height: auto;
+	position: absolute;
+	margin-top: -345px;
+	text-align: center;
+}
+
+.hero-title p {
+	font-size: 44px;
+	font-weight: 700;
+	line-height: 110%;
+	letter-spacing: -0.01em;
+	color: #ffffff;
+}
+
+.hero-title span {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 80%;
+	color: #ffffff;
+}
+
+.hero-property {
+	display: flex;
+	justify-content: center;
+}
+
+.search-property {
+	width: 70%;
+	min-height: 104px;
+	position: absolute;
+	margin-top: -185px;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: center;
+	background-color: #ffffff;
+}
+
+.search-property div button {
+	background-color: var(--primary-color);
+	padding: 5px 10px;
+	color: #ffffff;
+	border-radius: 5px;
+}
+
+@media screen and (min-width: 600px) {
+	.search-category {
+		border-right: 1px solid #e0def7;
+	}
+
+	form .search-category:last-child {
+		border-right: none;
+	}
+
+}
+
+@media screen and (max-width: 800px) {
+	.search-category {
+		border-right: 0;
+
+	}
+
+	.search-property {
+		margin-top: -150px;
+	}
+}
+
+.browse-property {
+	background-color: var(--primary-color);
+	color: white;
+	text-decoration: none;
+	border-radius: 4px;
+	padding: 10px 20px;
+}
+
+.browse-property:hover {
+	background-color: white;
+	color: var(--primary-color);
+	border: 1px solid var(--primary-color);
+	transition: background-color 0.3s;
+}

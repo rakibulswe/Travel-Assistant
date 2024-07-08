@@ -1,0 +1,6 @@
+.selected-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid #d7d7d7;
+}

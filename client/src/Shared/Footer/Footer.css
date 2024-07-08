@@ -1,0 +1,10 @@
+.footer{
+    height: auto;
+    width: 100%;
+    background: rgba(112, 101, 240, 0.08);
+}
+.media-icon{
+  color: #000929;
+  opacity: .5;
+  margin: 0 10px;
+}

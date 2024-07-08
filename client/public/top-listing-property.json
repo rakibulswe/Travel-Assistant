@@ -1,0 +1,113 @@
+[
+    {
+        "id": "1",
+        "image":"https://i.ibb.co/tDjvwBr/banner1.jpg",
+        "name":"White house (DattaPara, D-block, Road-4, House-21)",
+        "rent": "13000",
+        "room":"2",
+        "bath":"1",
+        "kitchen":"1",
+        "city": "Dhaka",
+        "area": "Bashundhara",
+        "property-type": "Apartment",
+        "size": "2450",
+        "availability":"1-01-2023"
+    },
+    {
+        "id": "2",
+        "image":"https://i.ibb.co/tDjvwBr/banner1.jpg",
+        "name":"White house (DattaPara, D-block, Road-4, House-21)",
+        "rent": "13000",
+        "room":"2",
+        "bath":"1",
+        "kitchen":"1",
+        "city": "Dhaka",
+        "area": "Bashundhara",
+        "property-type": "Apartment",
+        "size": "2450",
+        "availability":"1-01-2023"
+    },
+    {
+        "id": "3",
+        "image":"https://i.ibb.co/tDjvwBr/banner1.jpg",
+        "name":"White house (DattaPara, D-block, Road-4, House-21)",
+        "rent": "13000",
+        "room":"2",
+        "bath":"1",
+        "kitchen":"1",
+        "size"  : "2450",
+        "availability":"1-01-2023"
+    },
+    {
+        "id": "4",
+        "image":"https://i.ibb.co/tDjvwBr/banner1.jpg",
+        "name":"White house (DattaPara, D-block, Road-4, House-21)",
+        "rent": "13000",
+        "room":"2",
+        "bath":"1",
+        "kitchen":"1",
+        "city": "Dhaka",
+        "area": "Bashundhara",
+        "property-type": "Apartment",
+        "size": "2450",
+        "availability":"1-01-2023"
+    },
+    {
+        "id": "5",
+        "image":"https://i.ibb.co/tDjvwBr/banner1.jpg",
+        "name":"White house (DattaPara, D-block, Road-4, House-21)",
+        "rent": "13000",
+        "room":"2",
+        "bath":"1",
+        "kitchen":"1",
+        "city": "Dhaka",
+        "area": "Bashundhara",
+        "property-type": "Apartment",
+        "size": "2450",
+        "availability":"1-01-2023"
+    },
+    {
+        "id": "6",
+        "image":"https://i.ibb.co/tDjvwBr/banner1.jpg",
+        "name":"White house (DattaPara, D-block, Road-4, House-21)",
+        "rent": "13000",
+        "room":"2",
+        "bath":"1",
+        "kitchen":"1",
+        "city": "Dhaka",
+        "area": "Bashundhara",
+        "property-type": "Apartment",
+        "size": "2450",
+        "availability":"1-01-2023"
+    },
+    {
+        "id": "7",
+        "image":"https://i.ibb.co/tDjvwBr/banner1.jpg",
+        "name":"White house (DattaPara, D-block, Road-4, House-21)",
+        "rent": "13000",
+        "room":"2",
+        "bath":"1",
+        "kitchen":"1",
+        "city": "Dhaka",
+        "area": "Bashundhara",
+        "property-type": "Apartment",
+        "size": "2450",
+        "availability":"1-01-2023"
+    }
+    ,
+    {
+        "id": "8",
+        "image":"https://i.ibb.co/tDjvwBr/banner1.jpg",
+        "name":"White house (DattaPara, D-block, Road-4, House-21)",
+        "rent": "13000",
+        "room":"2",
+        "bath":"1",
+        "kitchen":"1",
+        "city": "Dhaka",
+        "area": "Bashundhara",
+        "property-type": "Apartment",
+        "size": "2450",
+        "availability":"1-01-2023"
+    }
+
+]

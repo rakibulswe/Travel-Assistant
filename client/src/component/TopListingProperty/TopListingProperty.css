@@ -1,0 +1,54 @@
+.card {
+  border-radius: 8px;
+  background-color: #FFF;
+  border: 2px solid var(--primary-color);
+  margin-bottom: 50px;
+}
+
+.card img {
+  height: 172px;
+  width: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+
+
+.location {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.details .rent {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.availability {
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.view-btn {
+  border-radius: 3px;
+  text-align: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 3px 40px;
+}
+
+.view-btn:hover {
+  background-color: white;
+  /* Green */
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  transition: background-color 0.5s;
+}
+
+.swiper {
+  padding-bottom: 20px;
+}
+
+.swiper-pagination {
+  bottom: -5px !important;
+}

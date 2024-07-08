@@ -1,0 +1,114 @@
+.card-content {
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.dashboard-btn {
+    text-decoration: none;
+    padding: 7px 40px;
+    background-color: var(--primary-color);
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.dashboard-btn.active {
+    background-color: rgb(1, 134, 92);
+    color: white !important;
+}
+
+.dashboard-btn:hover {
+    background-color: white;
+    color: var(--primary-color) !important;
+    border: 1px solid var(--primary-color);
+    transition: background-color 0.5s;
+
+}
+
+.search-icon {
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 4px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-right: 0;
+}
+
+.table-numbering {
+    display: inline-block;
+    padding-inline: 10px;
+    font-weight: bold;
+}
+
+.tours-table .search {
+    border: 1px solid rgb(214, 214, 214);
+    padding: 5px 15px;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    min-width: 250px;
+}
+
+.tours-table .pagination .page-info {
+    display: flex;
+    gap: 10px;
+}
+
+.tours-table .pagination .page-info button {
+    display: inline-block;
+    padding-inline: 10px;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-page input {
+    width: 50px;
+    padding: 0 6px;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 4px;
+}
+
+.search-page select {
+    padding: 0 6px;
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 4px;
+}
+
+.actions-expand-btns button {
+    font-size: 12px;
+    padding: 3px 7px;
+}
+
+@media (max-width: 768px) {
+    .pagination {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .card-content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}

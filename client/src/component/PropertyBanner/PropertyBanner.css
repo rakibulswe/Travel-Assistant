@@ -1,0 +1,78 @@
+.banner-background {
+    height: 250px;
+    background-color: rgb(1, 27, 1);
+    position: relative;
+}
+
+.filter-label {
+    color: var(--primary-color);
+}
+
+.hero-title {
+    height: auto;
+    text-align: center;
+}
+
+.hero-title p {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: -0.01em;
+    color: #ffffff;
+}
+
+.hero-title span {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 80%;
+    color: #ffffff;
+}
+
+.search-property-form {
+    width: 70%;
+    min-height: 104px;
+    padding: 20px;
+    position: absolute;
+    border-radius: 10px;
+    margin-top: 60px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.search-property-form div button {
+    background-color: var(--primary-color);
+    padding: 5px 10px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 600px) {
+    .search-category {
+        border-right: 1px solid #e0def7;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .search-category {
+        border-right: 0;
+    }
+
+}
+
+.all-property-btn {
+    border-radius: 3px;
+    border: 1px solid transparent;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background-color: var(--primary-color);
+    padding: 5px 40px;
+}
+
+.all-property-btn:hover {
+    background-color: white;
+    /* Green */
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color)
+}

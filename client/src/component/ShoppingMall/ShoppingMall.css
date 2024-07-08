@@ -1,0 +1,48 @@
+.shopping-mall-container {
+    padding: 0px !important;
+    border: 1px solid rgb(238, 238, 238) !important;
+    position: relative;
+    cursor: pointer;
+}
+
+.shopping-mall-container .description {
+    position: absolute;
+    padding: 10px;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.393);
+    height: 150px;
+    color: rgb(255, 255, 255);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    opacity: 0;
+    line-height: normal;
+    transition: opacity ease 0.4s;
+}
+
+.shopping-mall-container:hover .description {
+    opacity: 1;
+}
+
+.shopping-mall-container img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 150px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.shopping-mall-body h4 {
+    color: rgb(133, 185, 125);
+    font-size: 16px;
+    border-bottom: 2px dashed rgb(228, 238, 229);
+    padding-bottom: 10px;
+    text-align: left;
+    padding-inline: 10px;
+}
+
+.shopping-mall-body p {
+    padding: 0px 10px;
+    font-size: 14px;
+    color: rgb(121, 121, 121);
+    text-align: left;
+}

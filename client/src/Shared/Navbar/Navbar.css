@@ -1,0 +1,52 @@
+.nav-container {
+  position: relative;
+  z-index: 999;
+}
+
+.navbar {
+  height: auto;
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.logo-style {
+  height: 125px;
+  width: auto;
+}
+
+.nav-style {
+  font-family: 'Poppins', sans-serif !important;
+  margin-right: 1rem !important;
+  color: #4f6f64 !important;
+  transition: 0.4s !important;
+  font-weight: 500 !important;
+}
+
+.active {
+  color: var(--primary-color) !important;
+}
+
+.nav-style:hover {
+  background-color: white !important;
+  color: var(--primary-color) !important;
+  transition: background-color 0.5s;
+}
+
+.nav-button {
+  padding: 5px 24px;
+  width: 92px;
+  border: 2px solid #e0def7;
+  border-radius: 8px;
+}
+
+.nav-button:hover {
+  transform: scale(1.1) !important;
+  background-color: white !important;
+  color: var(--primary-color) !important;
+  transition: background-color 0.5s;
+}
+
+#navbarText .dropdown-toggle::after {
+  display: none;
+}

@@ -1,0 +1,17 @@
+.banner-image-resize {
+  height: 500px;
+  background: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-Item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 9, 41, 0.67);
+  opacity: 0.67;
+}

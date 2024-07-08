@@ -1,0 +1,136 @@
+.banner-image-resize {
+	border-radius: 10px;
+	background: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+@media screen and (min-width: 600px) {
+	.banner-image-resize {
+		height: 500px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.banner-image-resize {
+		height: auto;
+	}
+}
+
+.contact-section {
+	background-color: white;
+	border-radius: 10px;
+	height: max-content;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.08);
+	box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.07);
+}
+
+.calculated-price {
+	border: 2px dashed var(--primary-color);
+	font-weight: 500;
+	font-size: 18px;
+	padding: 4px 9px;
+	border-radius: 5px;
+}
+
+.font-awesome-icon {
+	color: var(--primary-color);
+}
+
+.features {
+	background-color: white;
+	margin-top: 20px;
+	border-radius: 10px;
+	padding: 20px;
+	border: 1px solid rgba(19, 19, 19, 0.033);
+	box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.07);
+}
+
+.features .heading {
+	text-transform: uppercase;
+	font-weight: 400;
+	color: var(--primary-color);
+	padding-bottom: 20px !important;
+	border-bottom: 1px solid rgb(237, 237, 237);
+}
+
+.tour-details-info {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 2px dashed rgb(241, 241, 241);
+
+}
+
+.description-list,
+.all-features {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+}
+
+.description-list div {
+	padding-bottom: 6px;
+	border-bottom: 2px dashed #ddeddd;
+}
+
+.address {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	row-gap: 10px;
+	column-gap: 50px;
+}
+
+.address .row {
+	border-bottom: 1px solid #9491b5;
+}
+
+.contact-btn {
+	/* width: 100%; */
+	text-align: center;
+}
+
+.contact-btn a {
+	text-decoration: none;
+	padding: 10px 50px;
+	border-radius: 5px;
+	background-color: var(--primary-color);
+	color: white;
+	border: 1px solid transparent;
+	/* width: 100%; */
+	text-align: center;
+}
+
+.contact-btn a:hover {
+	background-color: white;
+	color: var(--primary-color);
+	border: 1px solid var(--primary-color);
+	transition: background-color 0.5s;
+}
+
+.tour-price {
+	border-radius: 5px;
+	padding: 10px 14px;
+	text-align: center;
+	border: 2px dashed var(--primary-color);
+	font-weight: 500;
+	font-size: 26px;
+	margin-block: 20px;
+}
+
+@media (max-width: 1199px) {
+	.contact-btn {
+		width: 100%;
+	}
+
+	.description-list {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 767px) {
+	.contact-btn {
+		width: auto;
+	}
+}

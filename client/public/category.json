@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "icon": "https://i.ibb.co/TPzx8fF/commercial-space.png",
+        "title": "Commercial Space",
+        "adds": "04"
+    },
+    {
+        "id": "2",
+        "icon": "https://i.ibb.co/XLG6Cqt/office.png",
+        "title": "Office Space",
+        "adds": "04"
+    },
+    {
+        "id": "3",
+        "icon": "https://i.ibb.co/YBXj3qL/apartment.png",
+        "title": "Apartment Building",
+        "adds": "04"
+    },
+    {
+        "id": "4",
+        "icon": "https://i.ibb.co/SBpmqPV/flat-wlaa9iaippox-64.png",
+        "title": "Flat Rent",
+        "adds": "04"
+    },
+    {
+        "id": "5",
+        "icon": "https://i.ibb.co/K53XW7Z/hostel.png",
+        "title": "Hostel Rent",
+        "adds": "04"
+    },
+    {
+        "id": "6",
+        "icon": "https://i.ibb.co/y0MpJdp/forBoys.png",
+        "title": "Only For Boys",
+        "adds": "04"
+    },
+    {
+        "id": "7",
+        "icon": "https://i.ibb.co/9vzt4Hv/forGirls.png",
+        "title": "Only For Girls",
+        "adds": "04"
+    },
+    {
+        "id": "8",
+        "icon": "https://i.ibb.co/YTmZxhs/family.png",
+        "title": "For Family",
+        "adds": "04"
+    },
+    {
+        "id": "9",
+        "icon": "https://i.ibb.co/LhCCnb9/community-center-megsjrrc7io4-64.png",
+        "title": "Community Center",
+        "adds": "04"
+    },
+    {
+        "id": "10",
+        "icon": "https://i.ibb.co/NNjSqn2/restaurant-vclgw74x35rx-64.png",
+        "title": "Shop & Restaurant",
+        "adds": "04"
+    }
+]
